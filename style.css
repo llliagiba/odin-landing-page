@@ -58,8 +58,12 @@ ul {
     display: flex;
     gap: 25px;
     font-size: 18px; 
-    color: #E5E7EB;
     list-style-type: none;
+}
+
+.header-right a {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .hero {
@@ -99,6 +103,7 @@ ul {
     border-style: none;
     border-radius: 5px;
     padding: 5px 15px;
+    cursor: pointer;
 }
 
 .random-info {
@@ -193,4 +198,13 @@ ul {
     font-size: 20px;
 }
 
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+footer p {
+    color: #F9FAF8;
+    text-align: center;
+}
 
