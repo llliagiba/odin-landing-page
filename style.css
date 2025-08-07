@@ -95,6 +95,7 @@ ul {
 .sign-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    font-size: 18px;
     border-style: none;
     border-radius: 5px;
     padding: 5px 15px;
@@ -143,7 +144,7 @@ ul {
     justify-content: center;
     background-color: #E5E7EB;
     padding: 80px 250px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .quote-container {
@@ -166,6 +167,30 @@ ul {
     font-weight: 700;
     width: 180px;
     margin-top: 8px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 30px 90px;
+    margin: 0 250px 70px;
+}
+
+.cta-text {
+    color: #F9FAF8;
+}
+
+.cta-text p {
+    color: #E5E7EB;
+    margin-top: 6px;
+}
+
+.cta-sign-up {
+    border: 2px solid #F9FAF8;
+    font-size: 20px;
 }
 
 
